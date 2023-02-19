@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.firstLayout {
+    height: 100vh;
+    width: 98.9vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.552), rgba(64, 29, 84, 0.552)), url("./img\ 1st/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 20px;
+}
+
+.navbar {
+    background-color: white;
+    height: 10vh;
+    width: 85%;
+    display: flex;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+
+.navBtn {
+    border: none;
+    background: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    height: 8vh;
+    width: 18vw;
+    margin: 5px;
+    display: flex;
+}
+
+.icon {
+    background-image: url("./img\ 1st/icons8-axie-infinity-64.png");
+    transform: rotate(45deg) scale(0.9);
+    height: 8vh;
+    width: 4vw;
+    border-radius: 40px;
+}
+
+.iconName {
+    height: 8.8vh;
+    width: 9.2vw;
+    margin-left: 5px;
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.iconName span {
+    font-size: 4vh;
+    color: rgb(152, 80, 219);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navItems {
+    height: 8.8vh;
+    width: 50vw;
+    margin: 5px;
+    margin-left: 25vw;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 14px;
+    list-style: none;
+}
+
+.connect {
+    background-color: rgb(248, 246, 249);
+}
+
+.listItems {
+    padding: 6px 16px;
+    border-radius: 50px;
+    font-size: 2.6vh;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.listItems:hover {
+    background-color: rgb(155, 103, 204);
+    color: white;
+}
+
+.container {
+    /* height: 80vh;
+    width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.leftDiv1 {
+    height: 60vh;
+    width: 40vw;
+    color: rgb(235, 230, 230);
+    padding: 20px;
+    position: absolute;
+    left: 100px;
+    font-size: 3vh;
+}
+
+.leftDiv1 h1 {
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+.leftDiv1 p {
+    font-size: 2.4vh;
+    word-spacing: 6px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.explore {
+    padding: 14px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color: rgb(246, 243, 249);
+    color: white;
+    font-size: 2.2vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.4s;
+}
+
+.explore:hover {
+    background-color: transparent;
+    border: 1px solid rgb(130, 55, 199);
+}
+
+.rightDiv1 {
+    border-radius: 30px;
+    height: 50vh;
+    width: 32vw;
+    position: absolute;
+    right: 280px;
+}

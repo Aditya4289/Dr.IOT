@@ -1,0 +1,92 @@
+.thirdLayout {
+    height: 40vw;
+    background-image: linear-gradient(90deg, rgba(68, 0, 255, 0.637), rgba(68, 0, 255, 0.287), rgba(160, 108, 255, 0.815)), url("./bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thirdInner1 {
+    height: 32vw;
+    width: 90%;
+    margin: 40px;
+}
+
+.inner1Up {
+    height: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.upButton {
+    padding: 12px 40px;
+    border-bottom: 2px solid transparent;
+    background-color: rgba(68, 0, 255, 0.472);
+    color: white;
+    font-size: 2vh;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 28px;
+    transition: 0.3s;
+}
+
+.upButton:hover {
+    transition: 0.4s;
+    border-bottom: 2px solid white;
+}
+
+.inner1Down {
+    height: 24vw;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.inner1Down hr {
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.downDiv {
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img2 {
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.downText {
+    height: 18vh;
+}
+
+.downText h3 {
+    text-align: left;
+}
+
+.downText p {
+    font-size: 2.5vh;
+    margin-top: 10px;
+    word-spacing: 0.5vw;
+}
+
+.downText a {
+    color: aqua;
+}
+
+.inner1Down .hr {
+    border-left: 1px solid white;
+    padding-left: 20px;
+    margin-left: 4px;
+}
