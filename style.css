@@ -2,7 +2,7 @@ body
 {
     margin: 0;
     padding: 0;
-    background-color:#6abadeba;
+    background-color:#301934;
     font-family: 'Arial';
 }
 .login{
@@ -17,7 +17,7 @@ body
 }
 h2{
     text-align: center;
-    color: #277582;
+    color: #ffffff;
     padding: 20px;
 }
 label{
