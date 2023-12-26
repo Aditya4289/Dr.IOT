@@ -1,59 +1,54 @@
-body
-{
+body {
     margin: 0;
     padding: 0;
-    background-color:#301934;
+    background: url('login.jpg') no-repeat center center fixed;
+    background-size: cover;
     font-family: 'Arial';
 }
-.login{
-        width: 382px;
-        overflow: hidden;
-        margin: auto;
-        margin: 20 0 0 450px;
-        padding: 80px;
-        background: #23463f;
-        border-radius: 15px ;
 
+.login {
+    width: 382px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20px 0 0 450px; /* corrected margin property */
+    padding: 80px;
+    background: rgba(0, 0, 0, 0.5); /* added a semi-transparent background */
+    border-radius: 15px;
 }
-h2{
+
+h2 {
     text-align: center;
     color: #ffffff;
     padding: 20px;
 }
-label{
+
+label {
     color: #08ffd1;
     font-size: 17px;
 }
-#Uname{
-    width: 300px;
-    height: 30px;
-    border: none;
-    border-radius: 3px;
-    padding-left: 8px;
-}
-#Pass{
-    width: 300px;
-    height: 30px;
-    border: none;
-    border-radius: 3px;
-    padding-left: 8px;
 
-}
-#log{
+#Uname,
+#Pass,
+#log {
     width: 300px;
     height: 30px;
     border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#log {
     border-radius: 17px;
     padding-left: 7px;
     color: blue;
-
-
 }
-span{
+
+span {
     color: white;
     font-size: 17px;
 }
-a{
+
+a {
     float: right;
     background-color: grey;
 }
